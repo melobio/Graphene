@@ -5,13 +5,21 @@ Pre-trained graph neural network and downstream tasks
 Download the following files respectively 
 
 `gtex_js.csv`: https://doi.org/10.6084/m9.figshare.19550818.v1  to `./fig3-b/` folder;
+
 `network.npy`: https://doi.org/10.6084/m9.figshare.19550902.v1  to `./network_data/` folder；
+
 `label.npy`: https://doi.org/10.6084/m9.figshare.19551259.v1 to `./pathway_member_identification/reactom/checkpoint/` folder；
+
 `test_mask.npy`: https://doi.org/10.6084/m9.figshare.19551439.v1 to `./pathway_member_identification/reactom/checkpoint/` folder;
+
 `train_mask.npy`: https://doi.org/10.6084/m9.figshare.19551484.v1 to `./pathway_member_identification/reactom/checkpoint/` folder;
+
 `disease_gen.npy`: https://doi.org/10.6084/m9.figshare.19551697.v1 to `./RR_predict/comorbidity/` folder;
+
 `gen_feat.npy`: https://doi.org/10.6084/m9.figshare.19551790.v1 to `./RR_predict/comorbidity/` folder.
+
 After downloading，the following downstream tasks can be run。
+
 ## Pathway member identification
 ### Requirements
 - torch==1.5.1
