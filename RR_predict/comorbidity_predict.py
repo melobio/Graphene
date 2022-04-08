@@ -325,8 +325,8 @@ if __name__ == '__main__':
                  [186 / 255, 12 / 255, 1, 1], [0, 0, 0, 1]]
     #color
     #s_ab
-    y_true2 = np.load(r"E:\projects\gat decagon\对标\1257601_Source_Code (1)\source\s_ab_result\s_ab_labels.npy")
-    y_scores2 = np.load(r"E:\projects\gat decagon\对标\1257601_Source_Code (1)\source\s_ab_result\s_ab_preds.npy")
+    y_true2 = np.load(r"./Sab_Source_Code (1)/source/s_ab_result/s_ab_labels.npy")
+    y_scores2 = np.load(r"./Sab_Source_Code (1)/source/s_ab_result/s_ab_preds.npy")
     precision2, recall2, thresholds2 = metrics.precision_recall_curve(y_true2, y_scores2)
     # s_ab
 
