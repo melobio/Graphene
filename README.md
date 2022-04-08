@@ -80,5 +80,6 @@ ling 78 `n_classes = 203` change to `n_classes = 202`
 - torch==1.5.1
 - networkx==2.5
 - scipy==1.5.1
+
 Run `python comorbidity_train.py` to start training ：set `FLAGS.encoder` to gat or gcn to select encoder type.
 Run `python comorbidity_predict.py` for testing.
