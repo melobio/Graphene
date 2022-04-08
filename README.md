@@ -3,6 +3,7 @@ Pre-trained graph neural network and downstream tasks
 
 ## Download files
 Download the following files respectively 
+
 `gtex_js.csv`: https://doi.org/10.6084/m9.figshare.19550818.v1  to `./fig3-b/` folder;
 `network.npy`: https://doi.org/10.6084/m9.figshare.19550902.v1  to `./network_data/` folder；
 `label.npy`: https://doi.org/10.6084/m9.figshare.19551259.v1 to `./pathway_member_identification/reactom/checkpoint/` folder；
