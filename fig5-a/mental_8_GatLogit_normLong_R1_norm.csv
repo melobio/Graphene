@@ -1,0 +1,57 @@
+dis1,dis2,value
+unipolar depression,post-traumatic stress disorder,0.4546734234234235
+unipolar depression,attention deficit hyperactivity disorder,0.47877045957595527
+unipolar depression,bipolar disorder,0.9377976544826767
+unipolar depression,schizophrenia,1.0
+unipolar depression,autism spectrum disorder,0.5355939379276976
+unipolar depression,Tourette syndrome,0.020282027967642825
+unipolar depression,anorexia nervosa,0.34648538299606146
+post-traumatic stress disorder,unipolar depression,0.4546734234234235
+post-traumatic stress disorder,attention deficit hyperactivity disorder,0.40656000101224826
+post-traumatic stress disorder,bipolar disorder,0.5957970682546955
+post-traumatic stress disorder,schizophrenia,0.45245011366506704
+post-traumatic stress disorder,autism spectrum disorder,0.9372586872586876
+post-traumatic stress disorder,Tourette syndrome,0.3625853676256903
+post-traumatic stress disorder,anorexia nervosa,0.31517528654308763
+attention deficit hyperactivity disorder,unipolar depression,0.47877045957595527
+attention deficit hyperactivity disorder,post-traumatic stress disorder,0.40656000101224826
+attention deficit hyperactivity disorder,bipolar disorder,0.45529618296306784
+attention deficit hyperactivity disorder,schizophrenia,0.4577882403680277
+attention deficit hyperactivity disorder,autism spectrum disorder,0.4055431110458285
+attention deficit hyperactivity disorder,Tourette syndrome,0.06622389434889439
+attention deficit hyperactivity disorder,anorexia nervosa,0.5044652210349885
+bipolar disorder,unipolar depression,0.9377976544826767
+bipolar disorder,post-traumatic stress disorder,0.5957970682546955
+bipolar disorder,attention deficit hyperactivity disorder,0.45529618296306784
+bipolar disorder,schizophrenia,0.9554385495650558
+bipolar disorder,autism spectrum disorder,0.40529916709162
+bipolar disorder,Tourette syndrome,0.0
+bipolar disorder,anorexia nervosa,0.37152595556721774
+schizophrenia,unipolar depression,1.0
+schizophrenia,post-traumatic stress disorder,0.45245011366506704
+schizophrenia,attention deficit hyperactivity disorder,0.4577882403680277
+schizophrenia,bipolar disorder,0.9554385495650558
+schizophrenia,autism spectrum disorder,0.3427482715273413
+schizophrenia,Tourette syndrome,0.027106921110299498
+schizophrenia,anorexia nervosa,0.3085753892479436
+autism spectrum disorder,unipolar depression,0.5355939379276976
+autism spectrum disorder,post-traumatic stress disorder,0.9372586872586876
+autism spectrum disorder,attention deficit hyperactivity disorder,0.4055431110458285
+autism spectrum disorder,bipolar disorder,0.40529916709162
+autism spectrum disorder,schizophrenia,0.3427482715273413
+autism spectrum disorder,Tourette syndrome,0.4041363254446157
+autism spectrum disorder,anorexia nervosa,0.43873206324881586
+Tourette syndrome,unipolar depression,0.020282027967642825
+Tourette syndrome,post-traumatic stress disorder,0.3625853676256903
+Tourette syndrome,attention deficit hyperactivity disorder,0.06622389434889439
+Tourette syndrome,bipolar disorder,0.0
+Tourette syndrome,schizophrenia,0.027106921110299498
+Tourette syndrome,autism spectrum disorder,0.4041363254446157
+Tourette syndrome,anorexia nervosa,0.03241131756756757
+anorexia nervosa,unipolar depression,0.34648538299606146
+anorexia nervosa,post-traumatic stress disorder,0.31517528654308763
+anorexia nervosa,attention deficit hyperactivity disorder,0.5044652210349885
+anorexia nervosa,bipolar disorder,0.37152595556721774
+anorexia nervosa,schizophrenia,0.3085753892479436
+anorexia nervosa,autism spectrum disorder,0.43873206324881586
+anorexia nervosa,Tourette syndrome,0.03241131756756757
