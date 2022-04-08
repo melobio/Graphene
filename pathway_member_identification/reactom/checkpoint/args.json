@@ -1,0 +1,18 @@
+{
+    "dataset": null,
+    "gpu": 1,
+    "epochs": 800000,
+    "num_heads": 8,
+    "num_out_heads": 1,
+    "num_layers": 1,
+    "num_hidden": 128,
+    "residual": false,
+    "in_drop": 0,
+    "attn_drop": 0.5,
+    "lr": 0.001,
+    "weight_decay": 0,
+    "negative_slope": 0.2,
+    "early_stop": false,
+    "save_path": "./data",
+    "fastmode": false
+}
