@@ -54,7 +54,7 @@ ValAcc 0.5008 | ValROC 0.0000 | Pathway 0.4210/0.6417/0.7581
 | 3-10 | 0.4210 |  
 | 11-30 | 0.6417  |  
 | 31-1000 | 0.7581 |
-| mean | 0.0.5008 |
+| mean | 0.5008 |
 
 
 ## Disease gene prioritization
