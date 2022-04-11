@@ -68,7 +68,7 @@ uncomment the following to save results for disease prioritization according to 
 
 ### noting
 The checkpoint "eye_epoch07000_valacc0.0000_val_roc0.8910_checkpoint.pt" was trained using 203 diseases with label file
-"gwas_cui_MAPPED_TRAIT_threshold_30_tab_2.txt", where "retinitis pigmentosa" was our recently included. 
+"gwas_cui_MAPPED_TRAIT_threshold_30_tab_2.txt", where "retinitis pigmentosa" was our recently included disease. 
 To see the 202 diseases result, please load checkpoint "checkpoint.pt", and do the following changes:
 
 in `process.py`:
