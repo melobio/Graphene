@@ -96,6 +96,7 @@ Run `python comorbidity_predict.py` for testing.
 ## Pre-training
 
 This pre-training code is based on the paper:
+
 Weihua Hu*, Bowen Liu*, Joseph Gomes, Marinka Zitnik, Percy Liang, Vijay Pande, Jure Leskovec. Strategies for Pre-training Graph Neural Networks. ICLR 2020. 
 
 ### Requirements
