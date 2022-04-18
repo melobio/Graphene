@@ -92,3 +92,15 @@ ling 78 `n_classes = 203` change to `n_classes = 202`
 
 Run `python comorbidity_train.py` to start training ：set `FLAGS.encoder` to gat or gcn to select encoder type.
 Run `python comorbidity_predict.py` for testing.
+
+## Pre-training
+### Requirements
+- pytorch==1.0.1
+- torch-cluster==1.2.4
+- torch-geometric==1.0.3
+- torch-scatter==1.1.2
+- torch-sparse==0.2.4
+- torch-spline-conv==1.0.6
+
+### Context prediction
+Run `pretrain_context_predict.py` to start context prediction pretraining task.
