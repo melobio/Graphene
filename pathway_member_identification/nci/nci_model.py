@@ -20,6 +20,7 @@ class GAT(nn.Module):
                  features):
         super(GAT, self).__init__()
         self.embed = nn.Embedding.from_pretrained(features.cpu())
+        #self.embed = nn.Embedding(18547,100) #for Graphene with random input node embedding
         self.fc = torch.nn.Linear(100, 256)
         self.g = g
         self.num_layers = num_layers
