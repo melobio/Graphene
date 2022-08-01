@@ -96,14 +96,15 @@ def evaluate(model, features, train_labels, test_labels):
 
 
 def main(args):
-    random_uuid = str(uuid.uuid1())
-    save_path = os.path.join(args.save_path, random_uuid)
-    if not os.path.exists(save_path):
-        os.mkdir(save_path)
+    #random_uuid = str(uuid.uuid1())
+    #save_path = os.path.join(args.save_path, random_uuid)
+    #if not os.path.exists(save_path):
+        #os.mkdir(save_path)
 
-    with open(os.path.join(save_path, "args.json"), 'w') as f:
-        args_dict = args.__dict__
-        json.dump(args_dict, f, indent=4)
+    #with open(os.path.join(save_path, "args.json"), 'w') as f:
+        #args_dict = args.__dict__
+        #json.dump(args_dict, f, indent=4)
+    save_path = "./save_path"
 
     # load and preprocess dataset
     g = get_network()
