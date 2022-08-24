@@ -29,7 +29,7 @@ def get_noed_label():
     # 转化为node的label
     node_label = {}
     for node in node2set:
-        label = [0] * 2408
+        label = [0] * 2035
         # label = [0] * 211
         sets = node2set[node]
         for set in sets:
@@ -110,7 +110,7 @@ def get_network():
             node_label_list.append(node_label[ent])
         else:
             not_in_num += 1
-            node_label_list.append([0] * 2408)
+            node_label_list.append([0] * 2035)
     print(not_in_num, " not in node label")
     labels = torch.FloatTensor(node_label_list)
     # 只取一个
