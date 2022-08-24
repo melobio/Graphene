@@ -46,15 +46,15 @@ run `python evaluate_reactome.py`，and load the trained checkpoint to evaluate�
 run  `python reactome.py` to start training。
 results are as the following：
 ```
-ValAcc 0.5008 | ValROC 0.0000 | Pathway 0.4210/0.6417/0.7581
+ValAcc 0.5008 | ValROC 0.0000 | Pathway 0.3628/0.5804/0.6907
 ```
 
 | pathway | score |  
 |  ----  | ----  | 
-| 3-10 | 0.4210 |  
-| 11-30 | 0.6417  |  
-| 31-1000 | 0.7581 |
-| mean | 0.5008 |
+| 3-10 | 0.3628 |  
+| 11-30 | 0.5804 |  
+| 31-1000 | 0.6907 |
+| mean | 0.5446 |
 
 
 ## Disease gene prioritization
