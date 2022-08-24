@@ -128,7 +128,7 @@ def main(args):
     train_labels = g.ndata['train_label']
     test_labels = g.ndata['test_label']
     in_feats = num_feats
-    n_classes = 2408
+    n_classes = 2035
     n_edges = g.edges()[0].shape[0]
 
     np.save(os.path.join(save_path, 'train_mask'), train_mask.cpu().numpy())
