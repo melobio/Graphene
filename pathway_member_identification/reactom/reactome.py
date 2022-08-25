@@ -248,7 +248,7 @@ if __name__ == '__main__':
                         help="use residual connection")
     parser.add_argument("--in-drop", type=float, default=0,
                         help="input feature dropout")
-    parser.add_argument("--attn-drop", type=float, default=0.5,
+    parser.add_argument("--attn-drop", type=float, default=0.2,
                         help="attention dropout")
     parser.add_argument("--lr", type=float, default=0.001,
                         help="learning rate")
