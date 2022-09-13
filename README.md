@@ -18,6 +18,8 @@ Download the following files respectively
 
 `gen_feat.npy`: https://doi.org/10.6084/m9.figshare.19551790.v1 to `./RR_predict/comorbidity/` folder.
 
+We also provide STRING network we used for ablation purpose, and please download `network.pk`:https://doi.org/10.6084/m9.figshare.21088558 to `./disease_gene_ablation/sub_data` folder.
+
 After downloading，the following downstream tasks can be run。
 
 ## Pathway member identification
